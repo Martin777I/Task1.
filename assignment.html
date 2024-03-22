@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Review Blog</title>
+  <link rel="b" type="b" href="f">
+</head>
+<body>
+  <header>
+    <h1>Book Review Blog</h1>
+    <nav>
+        <ul>
+          <li><a href="code">Home</a></li>
+          <li><a href="code">About</a></li>
+          <li><a href="code">Book Reviews</a></li>
+          <li><a href="code">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to the Book Review Blog!</h2>
+      <p>Explore a world of literature through our book reviews. Discover new books, get recommendations, and share your thoughts with other book lovers.</p>
+      <img src="WhatsApp Image 2024-03-22 at 23.53.50_17f5ecaa.jpg" width="400px" height="400px" class="move" alt="Book Review Image">
+    </section>
+
+    <section>
+      <h2>Latest Book Reviews</h2>
+      <ul>
+        <li>
+          <h3>Uncle Tom's Cabin</h3>
+          <img src="WhatsApp Image 2024-03-22 at 23.53.51_9680a321.jpg" width="310px"  alt="book">
+          <p>by Harriet Beecher Stowe</p>
+          <p>A captivating novel set in the 1852s, exploring themes of wealth, love, and the American Dream.</p>
+        </li>
+        <li>
+          <h3>The Kite Runner</h3>
+          <img src="WhatsApp Image 2024-03-22 at 23.53.50_b2b76f77.jpg" width="310px"  alt="book">
+          <p>by Khaled Hosseini</p>
+          <p>story of a young boy named Amir and his close friend Hassan, set against the backdrop of Afghanistan's turbulent history.</p>
+        </li>
+        <li>
+          <h3>1984</h3>
+          <img src="WhatsApp Image 2024-03-22 at 23.53.51_ad88dc16.jpg" width="310px"  alt="book">
+          <p>by George Orwell</p>
+          <p>A dystopian novel depicting a totalitarian society and the struggle for individual freedom.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Submit Your Book Review</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="book">Book Title:</label>
+        <input type="text" id="book" name="book" required>
+
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Web assignment made by Danial, Book Review Blog.</p>
+  </footer>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(102, 143, 182);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.move {
+  position: relative;
+  animation-name: moveImage;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes moveImage {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: rgb(42, 53, 65);
+}
+
+h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(31, 35, 39);
+  color: white;
+  border: none;
+  width: 120px;
+  margin-left:570px;
+  border-radius: 30px;
+  
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(31, 35, 39);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+  </style>
+</body>
+</html>
